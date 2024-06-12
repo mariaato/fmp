@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none; 
+}
+
+body{
+    background-image: url("fundo.jpg");
+   
+}
+
+
+header{
+   
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    transition: all .35s ease;
+    background-color: #ffffff;
+    padding: 14px 14%;
+}
+.logo{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.cabeçalho-link{
+    display: flex;
+    font-size: 1rem;
+    gap: 3rem;
+}
+
+.cabeçalho-link a{
+  
+   color: #3946b4;
+   font-weight: 700;
+   transition: 0.3s;
+   text-decoration: none;
+}
+
+.cabeçalho-link a:hover{
+    color: #6a87be;
+}
+
+section#corpo  {
+    color: #ffffff;
+    display:block;
+    width: 750px;
+    float: left;
+    border-right: 1px solid #ffffff;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 120px; 
+}
+
+section#sobre  {
+    color: #ffffff;
+    display:block;
+    width: 750px;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 120px; 
+}
+
+#x {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article#x h1 {
+    font-size: 20pt;
+    color:#ffffff;
+    padding: 5px 0px 5px 10px;
+    margin: 10px;
+}
+
+#x img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do elemento pai */
+}
+aside#lateral {
+    color: #ffffff;
+    display: block;
+    width: 850px;
+    float: right;
+    padding: 10px;
+    padding-top: 10px;
+    margin-top: 30px ;
+    padding-top: 100px; 
+
+}
+
+aside#lateral h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color:#606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2{
+    background-color: #ffffff;
+    font-size: 13pt;
+    color:#ffffff;
+   padding: 5px;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    margin-bottom: 20px; /* Espaçamento inferior entre os cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 10px); /* Define a largura dos cards para ocupar metade da largura do contêiner, menos o espaçamento entre eles */
+   
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Altura da imagem do card */
+    object-fit: cover; /* Redimensiona a imagem para preencher o espaço */
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-container {
+    
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha quando não houver espaço suficiente */
+    justify-content: space-between; /* Distribui os cards igualmente na linha */
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centraliza o contêiner dos cards horizontalmente */
+    align-items: center; /* Centraliza o contêiner dos cards verticalmente */
+}
