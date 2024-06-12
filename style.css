@@ -122,8 +122,7 @@ aside#lateral h2{
     border-radius: .25rem;
     margin-bottom: 20px; /* Espaçamento inferior entre os cards */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: calc(50% - 10px); /* Define a largura dos cards para ocupar metade da largura do contêiner, menos o espaçamento entre eles */
-   
+    width: 18rem; /* Define a largura dos cards */
 }
 
 .card-img-top {
@@ -132,7 +131,6 @@ aside#lateral h2{
     object-fit: cover; /* Redimensiona a imagem para preencher o espaço */
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
-    
 }
 
 .card-body {
@@ -140,15 +138,15 @@ aside#lateral h2{
 }
 
 .card-container {
-    
     display: flex;
     flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha quando não houver espaço suficiente */
-    justify-content: space-between; /* Distribui os cards igualmente na linha */
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    gap: 20px; /* Adiciona espaço entre os cards */
 }
 
 .container {
-    text-align: center;
     display: flex;
     justify-content: center; /* Centraliza o contêiner dos cards horizontalmente */
     align-items: center; /* Centraliza o contêiner dos cards verticalmente */
+    padding: 20px; /* Adiciona padding para que os cards não toquem as bordas da tela */
 }
