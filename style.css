@@ -67,10 +67,8 @@ section#corpo  {
 section#sobre  {
     color: #ffffff;
     display:block;
-    width: 750px;
     float: left;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 150px;
     padding-top: 120px; 
 }
 
